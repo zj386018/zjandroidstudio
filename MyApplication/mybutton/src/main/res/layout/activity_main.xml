@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+
+
+        <Button
+            android:id="@+id/commonbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/imagebutton1"
+            android:text="我的按钮1" />
+
+        <Button
+            android:id="@+id/commonbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/imagebutton1"
+            android:drawablePadding="30dp"
+            android:text="我的按钮2" />
+
+        <Button
+            android:id="@+id/commonbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/imagebutton1"
+            android:drawableTop="@mipmap/imagebutton1"
+            android:text="我的按钮3" />
+
+        <Button
+            android:id="@+id/commonbutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/imagebutton1"
+            android:drawablePadding="30dp"
+            android:text="我的按钮4" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:text="我的按钮4"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 获取到焦点时的背景图片 -->
+    <item android:state_focused="true" android:drawable="@mipmap/button2"></item>
+    <!-- 按下去的时候的背景图片 -->
+    <item android:state_pressed="true" android:drawable="@mipmap/button2"></item>
+    <!-- 默认图片 -->
+    <item android:drawable="@mipmap/button1"></item>
+
+</selector>

@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scaleType:center 为缩放，放在imageview中间" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:src="@mipmap/backgroundmyimageview"
+        android:scaleType="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="scaleType:fitcenter 按照比例缩放"
+        />
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="#fff"
+            android:src="@mipmap/backgroundmyimageview"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

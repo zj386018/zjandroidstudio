@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myautocompletetextview/myautocompletetextview.iml" filepath="$PROJECT_DIR$/myautocompletetextview/myautocompletetextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybutton/mybutton.iml" filepath="$PROJECT_DIR$/mybutton/mybutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycheckbox/mycheckbox.iml" filepath="$PROJECT_DIR$/mycheckbox/mycheckbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myimageview14/myimageview14.iml" filepath="$PROJECT_DIR$/myimageview14/myimageview14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myimageview15/myimageview15.iml" filepath="$PROJECT_DIR$/myimageview15/myimageview15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myradiobutton/myradiobutton.iml" filepath="$PROJECT_DIR$/myradiobutton/myradiobutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myseekbar/myseekbar.iml" filepath="$PROJECT_DIR$/myseekbar/myseekbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytogglebutton/mytogglebutton.iml" filepath="$PROJECT_DIR$/mytogglebutton/mytogglebutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytreeview/mytreeview.iml" filepath="$PROJECT_DIR$/mytreeview/mytreeview.iml" />
+    </modules>
+  </component>
+</project>

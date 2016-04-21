@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:contextClickable="false">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="seekBar1的进度为：0%"
+        />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="seekBar2的进度为：0%"
+        />
+
+    <SeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        />
+
+    <SeekBar
+        android:id="@+id/seekbar2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="60"
+        android:progressDrawable="@mipmap/button1"
+        android:thumb="@mipmap/button2"
+        android:thumbOffset="4dp"
+        android:outlineProvider="background"
+        />
+
+</LinearLayout>
